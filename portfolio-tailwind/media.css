@@ -1,0 +1,25 @@
+@media(max-width:380px){
+    .bg-img {
+        background-image: url(./assent/mobail_size.jpg);
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100vw;
+        top: 20px;
+    }
+    .bg-img p, .bg-img h2 {
+        color: rgb(255, 255, 255);
+    }
+}
+@media(max-width:673px){
+    .bg-img {
+        background-image: url(./assent/tablet_size.jpg) !important;
+        background-repeat: no-repeat;
+        background-size: cover!important;
+        height: 100vh;
+        width: 100vw;
+        top: 20px;
+    }
+    .bg-img p, .bg-img h2 {
+        color: rgb(255, 255, 255);
+    }
+}
